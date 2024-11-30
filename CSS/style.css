@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(../Images/img.jpg) no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form {
+    padding: 150px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 450px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.1px solid white;
+    border-radius: 25px;
+    outline: none;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+form .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+form .options a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: white;
+}
+
+form p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+form p a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline;
+}
