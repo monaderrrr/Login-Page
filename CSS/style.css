@@ -38,6 +38,11 @@ form input[type="password"] {
     color: white;
 }
 
+form input[type="text"]:hover,
+form input[type="password"]:hover {
+    border: 2px dashed black;
+}
+
 input::placeholder {
     color: white;
 }
@@ -83,4 +88,11 @@ form p a {
 
 form p a:hover {
     text-decoration: underline;
+}
+
+form button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+
 }
