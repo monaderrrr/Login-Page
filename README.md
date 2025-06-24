@@ -24,15 +24,3 @@ This project is a **simple and responsive login page** with a visually appealing
   
   ![](./image.png)
 
-## How to Use
-1. Clone this repository:
-   ```bash
-   git clone [https://github.com/your-username/your-repository.git](https://github.com/mohamednaderrr/Login-Page)
-
-   cd your-repository
-
-   ### Accounts On Social Media
-![GitHub]https://github.com/mohamednaderrr.
-![Facebook]https://www.facebook.com/profile.php?id=100003506793150.
-![LinkedIn]https://www.linkedin.com/in/mohamed-nader-8a1857298/.
-
